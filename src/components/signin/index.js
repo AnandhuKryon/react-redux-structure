@@ -8,8 +8,8 @@ const Signin = ({ props }) => {
     return (
         <>
             <div>
-                <button onClick={() => dispatch(addCount())}>Add Count</button>
-                <button onClick={() => dispatch(reduceCount())}>Reduce Count</button>
+                <button onClick={() => dispatch(addCount())} style={{ cursor: "pointer" }}>Add Count</button>
+                <button onClick={() => dispatch(reduceCount())} style={{ cursor: "pointer" }}>Reduce Count</button>
             </div>
         </>
     )

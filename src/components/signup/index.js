@@ -15,7 +15,7 @@ const SignUp = ({ props }) => {
         <>
             <div className="container">
                 <Signin />
-                Count is {count}
+                Count  <p style={{ color: count > 6 ? 'green' : count >= 3 ? 'violet' : count < 3 && count > 0 ? 'red' : null }}> {count}</p>
             </div>
         </>
     )
