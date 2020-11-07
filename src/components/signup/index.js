@@ -15,7 +15,7 @@ const SignUp = ({ props }) => {
         <>
             <div className="container">
                 <Signin />
-                hi my count {count}
+                Count is {count}
             </div>
         </>
     )
